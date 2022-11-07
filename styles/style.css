@@ -3,6 +3,10 @@
     src: url(../font/GreatVibes-Regular.ttf);
 }
 
+.container {
+    visibility: hidden;
+}
+
 body {
     position: relative;
     width: 383px;
@@ -10,13 +14,36 @@ body {
     background: #3F3F3F;
 }
 
-header{
+h1 {
     font-family: 'GreatViber-Regular';
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: rotateZ(90deg);
+}
+
+.text-naranjilla {
     color: #FEAE65;
 }
 
+.text-negrito {
+    color: #3F3F3F;
+}
 
+.bg-naranjilla {
+    background-color: #FEAE65;
+}
 
-video {
-    width: 108%;
+a:hover {
+    color: #3F3F3F;
+}
+
+.footerBg {
+    width: 100%;
+    background-image: url(../imgs/footer.png);
 }
