@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'GreatViber-Regular';
+    src: url(../font/GreatVibes-Regular.ttf);
+}
 body {
     position: relative;
     background: #3F3F3F;
@@ -42,4 +46,8 @@ a:hover {
 }
 .bot-10{
     bottom: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1dce84bd6dd233213e2c4b9860e7d526f331237d

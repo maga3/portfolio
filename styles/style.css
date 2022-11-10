@@ -2,6 +2,10 @@
     font-family: 'GreatViber-Regular';
     src: url(../font/GreatVibes-Regular.ttf);
 }
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
 
 .container {
     visibility: hidden;
