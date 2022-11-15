@@ -8,8 +8,9 @@ body {
 }
 
 h1{
-    font-size: 10vmax;
-    margin-top: 30px;
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: 900;
 }
 
 .text-naranjilla {
@@ -38,16 +39,19 @@ a:hover {
     background: #FEAE65;
     border-radius: 20px 20px 20px 0px;
 }
-.right-10{
-    right: 15px;
+.bocataDer{
+    width: 90%;
+    height: 150px;
+    border-radius: 20px 20px 0px 20px;
+    background: #ff9203;
+}
+
+.right-0{
+    right: 0px;
 }
 .top-5{
     top: 5px;
 }
 .bot-10{
     bottom: 10px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 1dce84bd6dd233213e2c4b9860e7d526f331237d
