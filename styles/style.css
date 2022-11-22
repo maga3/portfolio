@@ -41,8 +41,9 @@ video {
     background-color: #FEAE65;
 }
 
-a:hover {
+.card-body:hover > a{
     color: #3F3F3F;
+    text-decoration: line-through !important;
 }
 
 .footerBg {
