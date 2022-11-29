@@ -1,0 +1,44 @@
+header {
+    background-color: #333333;
+}
+nav > ul > li {
+    background-color: #232323;
+}
+
+figure>img {
+    border: solid;
+    border-width: 1px;
+    border-color: #d6d6d6;
+    padding: 3px;
+}
+*{
+    font-family: URW Antiqua T Regular;
+    color: #919191;
+    src: url(urw-antiqua-t-11.ttf);
+}
+figcaption {
+    font-style: italic;
+}
+footer>p{
+    color: #919191;
+}
+.bar {
+    padding-right: 12px;
+}
+
+.subtitle {
+    font-size: small;
+}
+.pieS {
+    background-color: #333333;
+}
+.pie {
+    background-color: #232323;
+}
+
+#title>h1>a, #title>h2 {
+    color: #caba97;
+}
+.itemNavi:hover, .itemNavi:visited, .itemNavi:active, .itemNavi{
+    color: #caba97;
+}

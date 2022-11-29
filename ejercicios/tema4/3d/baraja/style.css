@@ -1,0 +1,48 @@
+.baraja{
+
+}
+.carta {
+    /* transform:  rotateZ(360deg); */
+    border-radius: 20px;
+    overflow: hidden;
+    width: 2.5in;
+    height: 3.5in;
+}
+
+.carta > div{
+    width: 2.5in;
+    height: 3.5in;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carta:hover > div{
+    transform: rotateY(180deg);
+}
+
+.carta:hover .anverso{
+    z-index: 10;
+}
+.carta:hover .reverso{
+    z-index: 0;
+}
+
+.reverso {
+    transition: all 0.5s;
+    z-index: 10;
+}
+.anverso{
+    transition: all 0.5s;
+    z-index: 0;
+}
+
+#hearts7 .anverso {
+    background-image: url("./png-transparent-playing-card-suit-standard-52-card-deck-card-game-ace-card-hearts-joker-spades.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hearts7 .reverso {
+    background-image: url("67b65f8238ed30f75b28048e8ead631d.png");
+    background-size: cover;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+#planos {
+    width: 100%;
+    height: 1200px;
+    background-color: darkgreen;
+}
+
+#planos>div {
+    width: 100%;
+    height: 1200px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.capa1 {
+    background-image: url(./img/capa1.png);
+}
+
+.capa2 {
+    background-image: url(./img/capa2.png);
+}
+
+.capa3 {
+    background-image: url(./img/capa3.png);
+}
+
+.capa4 {
+    background-image: url(./img/capa4.png);
+}
+
+.capa5 {
+    background-image: url(./img/capa5.png);
+}

@@ -1,0 +1,64 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    overflow: hidden;
+    background-image: url(fondo-agua-azul-piscina-reflejo-sol-onda-agua-ondulada-piscina-fondo-agua-clara_265223-45898.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.onda div {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    right: 50%;
+    bottom: 50%;
+    border: 1px solid lightblue;
+    border-radius: 1000px;
+    transform-origin: center;
+}
+
+.onda1 {
+    animation: goteo 4s infinite;
+}
+
+.onda2 {
+    animation: goteo 4s infinite;
+    animation-delay: 0.3s;
+}
+
+.onda3 {
+    animation: goteo 4s infinite;
+    animation-delay: 0.5s;
+}
+
+.onda4 {
+    animation: goteo 4s infinite;
+    animation-delay: 0.7s;
+}
+
+.onda5 {
+    animation: goteo 4s infinite;
+    animation-delay: 0.8s;
+}
+
+
+@keyframes goteo {
+    0% {
+        scale: 0.1;
+        /*Estado inicial no se vea afectado*/
+        opacity: 1;
+    }
+
+    100% {
+        scale: 6;
+        opacity: 0;
+    }
+}

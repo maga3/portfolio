@@ -1,0 +1,116 @@
+#container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+#card1 {
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(BuceoCard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#card1:hover {
+    background-size: 400px 600px;
+    box-shadow: 5px 5px 10px rgb(137, 137, 138);
+    transition: all;
+}
+
+button:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+#card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(BuceoCard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card2>h3{
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-300px, -50px);
+}
+#card2>p{
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-300px, -50px);
+}
+
+#card2>button{
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-300px, -50px);
+}
+
+#card2>span{
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-300px, -50px);
+}
+
+#card2:hover>h3{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+    box-shadow: 5px 5px 10px rgb(137, 137, 138);
+    transform: translate(0, -50px);
+}
+#card2:hover>p{
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+    transform: translate(0, -50px);
+}
+#card2:hover>button{
+    transform: translate(0, -50px);
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .7s;
+}#card2:hover>span{
+    transform: translate(0, -30px);
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .8s;
+}
+
+#card3 {
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(BuceoCard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#card3:hover{
+    transform: scale(1.35);
+    transform-origin: right bottom;
+    box-shadow: 5px 5px 10px rgb(137, 137, 138);
+    transition: all;
+}

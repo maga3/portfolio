@@ -1,0 +1,71 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+#barra {
+    border: 1px black solid;
+    width: 1500px;
+    border-radius: 100px;
+    padding: 0.1px;
+}
+
+#colorBarra {
+    background-color: blue;
+    width: 0%;
+    animation: barra 3s linear; 
+    animation-fill-mode: forwards;
+    border-radius: 100px;
+    height: 100px;
+}
+
+#reloj {
+    width: 100px;
+    animation: rotarReloj 3s linear;
+    margin-bottom: 30px;
+}
+
+@keyframes rotarReloj {
+    0% {
+        transform: rotate(0deg);
+    }
+    80%{
+        transform: rotate(573deg);
+    }
+    90%{
+        transform: rotate(650deg);
+    }
+    100% {
+        transform: rotate(720deg);
+    }
+}
+
+@keyframes barra {
+    0% {
+        width: 0%;
+        background-color: blue;
+    }
+    25%{
+        background-color: orange;
+    }
+    50%{
+        background-color: yellow;
+    }
+    80%{
+        width: 80%;
+        background-color: red;
+    }
+    90%{
+        width: 20%;
+    }
+    99.99%{
+        background-color: green;
+    }
+    100% {
+        background-color: green;
+        width: 100%;
+    }
+}

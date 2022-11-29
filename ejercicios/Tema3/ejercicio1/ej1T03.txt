@@ -1,0 +1,12 @@
+Pagina comic recortado maquetado
+arriba izquierda
+transicion sobre opacidad al hover 
+arriba derecha
+crezca hacia la derecha y hacia arriba con grow scale 1'3 origin
+medio izquierda
+transicion sobre el display que tarde 2s bordes redondeados en el hover  
+medio derecha
+Empieza despacio a rapido y y hacerlo muy pequeño hover
+abajo
+transicion de none a block
+Baja 400px despacio rapido despacio y desaparece gradual
