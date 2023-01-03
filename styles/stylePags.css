@@ -58,35 +58,19 @@ a:hover {
     bottom: 10px;
 }
 .con-content{
-    height: 0;
-    padding: 0 !important;
-    border: 1px solid #3F3F3F;
-    border-radius: 30px;
-}
-
-.desplegar:hover + *{
     height: auto;
     padding: auto;
-    animation: slidein;
-    animation-duration: 5s;
+    border-radius: 30px;
 }
 
 .lista{
     list-style-type: none;
 }
 
+.lista  * { 
+    margin: 5px;
+}
+
 .card-body{
     border-radius: 20px;
 }
-
-@keyframes slidein {
-    0% {
-      margin-top: 0%;
-      width: 100%
-    }
-  
-    100% {
-      margin-bottom: 0%;
-      width: 100%;
-    }
-  }

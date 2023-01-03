@@ -7,10 +7,6 @@ body {
     padding: 0 auto;
 }
 
-.container {
-    visibility: hidden;
-}
-
 body {
     position: relative;
     background: #3F3F3F;
@@ -20,10 +16,12 @@ h1 {
     font-family: 'GreatViber-Regular';
 }
 
+.container {
+    margin-top: 10px;
+}
+
 video {
     position: fixed;
-    right: 0;
-    bottom: 0;
     min-width: 100%;
     min-height: 100%;
     width: 100%;
